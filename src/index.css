@@ -473,12 +473,6 @@ p{    word-break: break-all}
   margin-top: 10px;
 
 }
-
-.mb-15{
-margin-bottom: 16px;
-padding-bottom: 16px;
-}
-
 .color-gray{
   /* margin-top: 7px; */
   opacity: 0.5;
@@ -526,14 +520,3 @@ margin-left: 5px;
 
 }
 
-
-/* =========== */
-.ReactModal__Overlay{
-  z-index: 7!important;
-}
-#navbar{
-  z-index: 1!important;
-}
-/* .container>.title{
-  padding-top: 30px;
-} */

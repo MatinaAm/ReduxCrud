@@ -106,7 +106,7 @@ export const Form = (props) => {
                 <p className="red_color">{errors?.address?.message}</p>
               </div>
 
-              <div className="mb-15">
+              <div>
                 <label className="mr-2" for="avatar">
                   Choose File:
                 </label>
@@ -122,13 +122,14 @@ export const Form = (props) => {
                   }}
                 />
 
-<br/>
-                <small className="">
-                  this is some pkaceholder wrap text placeholder
-                </small>
+                <p className="mb-10">
+                  this is some pkaceholder wrap text placeholder lorem ipsum
+                  placeholder lorem ipsum placeholder lorem ipsum
+                </p>
 
+                <hr className="color-gray" />
               </div>
-             
+
              
               <div className="input-box">
                 <span className="details">facebook</span>
