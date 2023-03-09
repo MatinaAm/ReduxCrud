@@ -7,7 +7,7 @@ const initialState = {};
 const middleware = [thunk]; //to turn sinchronous actions to asynchronous
 
 const myStore = createStore(rootReducer, initialState, compose(applyMiddleware(...middleware), 
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+    // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 ) );
 
 export default myStore;
